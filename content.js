@@ -1,13 +1,21 @@
 import React from 'react';
+import Departure from './departure';
 
 class Content extends React.Component {
   render() {
+    let departureListItems = [];
+    departureListItems.push(<li><Departure /></li>)
+    departureListItems.push(<li><Departure /></li>)
+    departureListItems.push(<li><Departure /></li>)
+    departureListItems.push(<li><Departure /></li>)
+    departureListItems.push(<li><Departure /></li>)
+
     return (
       <div>
-        <h1>Home Page</h1>
-        <p>This is the content from a react class.</p>
-        <p>This is another paragraph.</p>
-        <p>And it's all in between &lt;div&gt; tags.</p>
+        <h1>Departures Board</h1>
+        <ul>
+          {departureListItems}
+        </ul>
       </div>
     )
   }

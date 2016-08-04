@@ -26,3 +26,5 @@ Now I want to use React.
 * configure webpack.config.js loaders to include babel-loader
 
 Found a cool website https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
+
+Got all the react bits working, now I want to create a 'Departure Board'
