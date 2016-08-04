@@ -19,3 +19,7 @@ Then I checked it out again and all stopped working. I needed to do this again..
 but let's do something else...
 `npm init` creates package.json
 'sudo npm install [packages]`
+
+Now I want to use React.
+
+`npm install --save react react-dom babel-preset-react babel-loader babel-core babel-preset-es2015`
