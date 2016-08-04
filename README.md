@@ -22,4 +22,7 @@ but let's do something else...
 
 Now I want to use React.
 
-`npm install --save react react-dom babel-preset-react babel-loader babel-core babel-preset-es2015`
+*`npm install --save react react-dom babel-preset-react babel-loader babel-core babel-preset-es2015`
+* configure webpack.config.js loaders to include babel-loader
+
+Found a cool website https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
