@@ -1,10 +1,14 @@
-var React = require('react')
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class Hello extends React.Component {
+  render() {
+    return <h1>Hello</h1>
+  }
+}
 
 ReactDOM.render(
-  <h1>Hello REACT thingy</h1>,
+  <Hello />,
   document.getElementById('example')
 );
 
-//require("./style.css");
-//document.write(require("./content.js"));
