@@ -13,3 +13,9 @@ http://webpack.github.io/docs/tutorials/getting-started/
 
 * Install webpack-dev-server
 `npm install webpack-dev-server -g` or `sudo npm install webpack-dev-server -g`
+
+Then I checked it out again and all stopped working. I needed to do this again...
+`npm install css-loader style-loader`
+but let's do something else...
+`npm init` creates package.json
+'sudo npm install [packages]`

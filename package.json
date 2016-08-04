@@ -1,0 +1,24 @@
+{
+  "name": "website-experiment",
+  "version": "1.0.0",
+  "description": "Experiments with webpack, etc",
+  "main": "entry.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollandnj/website-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hollandnj/website-experiment/issues"
+  },
+  "homepage": "https://github.com/hollandnj/website-experiment#readme"
+}
