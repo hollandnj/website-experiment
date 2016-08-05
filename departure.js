@@ -1,11 +1,8 @@
 import React from 'react';
 
-class Departure extends React.Component {
-  render() {
-    return (
-      <div>Time  Destination  Status</div>
-    )
-  }
-}
+// A stateless or pure component...
 
-export default Departure 
+const Departure = ({time, destination, status}) =>
+  <div>{time} :: {destination} :: {status}</div>;
+ 
+export default Departure
